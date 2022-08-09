@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Nulshock';
+    src: local('Nulshock'), url(../fonts/nulshock-bd.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'AvenirNextBold';
+    src: local('AvenirNextBold'), url(../fonts/AvenirNextLTPro-Bold.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'AvenirNextreg';
+    src: local('AvenirNextReg'), url(../fonts/AvenirNextLTPro-Regular.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'OpenSansReg';
+    src: local('OpenSansReg'), url(../fonts/OpenSans-Regular.ttf) format('truetype');
+}
+
+
+.navbar-title {
+    font-family: Nulshock, Arial, serif;
+}
+
+.avenir-bold {
+    font-family:AvenirNextBold ;
+}
+
+.avenir-reg {
+    font-family: AvenirNextReg;
+}
+
+.open-sans-reg{
+    font-family: OpenSansReg;
+}
+
+.bg-image{
+    background-image: url(../images/sydney-1.jpg);
+}
+
+.mt-serrat{
+    font-family: 'Montserrat', sans-serif;
+}
+
