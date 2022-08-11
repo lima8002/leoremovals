@@ -8,10 +8,10 @@ export default class Cover extends Component {
 
                 <div className="container ">
                     <div className="row ">
-                        <div className="col-md-3 DivLogoStyle">
+                        {/* <div className="col-md-3 DivLogoStyle">
                             <div className="container ">
                             </div>
-                        </div>
+                        </div> */}
                         <div className="col w-60">
                             <div className="container DivTitleStyle">
                                 <p style={{ paddingTop: 180, paddingRight: 280 }}>
