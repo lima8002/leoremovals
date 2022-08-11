@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/leoremovals/static/css/main.f4dfbe5a.css",
-    "main.js": "/leoremovals/static/js/main.c080684a.js",
+    "main.js": "/leoremovals/static/js/main.b24036bc.js",
     "static/js/787.555a46ad.chunk.js": "/leoremovals/static/js/787.555a46ad.chunk.js",
     "static/media/sydney-1.jpg": "/leoremovals/static/media/sydney-1.446c7cf5a5edbd19fe4a.jpg",
     "static/media/movingfurniture.jpg": "/leoremovals/static/media/movingfurniture.79257d059d6a9b504a3d.jpg",
@@ -15,11 +15,11 @@
     "static/media/nulshock-bd.otf": "/leoremovals/static/media/nulshock-bd.5f8b79a5cb66b510d8eb.otf",
     "index.html": "/leoremovals/index.html",
     "main.f4dfbe5a.css.map": "/leoremovals/static/css/main.f4dfbe5a.css.map",
-    "main.c080684a.js.map": "/leoremovals/static/js/main.c080684a.js.map",
+    "main.b24036bc.js.map": "/leoremovals/static/js/main.b24036bc.js.map",
     "787.555a46ad.chunk.js.map": "/leoremovals/static/js/787.555a46ad.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f4dfbe5a.css",
-    "static/js/main.c080684a.js"
+    "static/js/main.b24036bc.js"
   ]
 }
