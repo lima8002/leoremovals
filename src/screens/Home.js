@@ -15,79 +15,83 @@ import {
 
 import titlelogo from './images/titlelogo.png';
 import CardAbout from './components/CardAbout';
+import Form from './components/Form';
 import * as Constants from './css/card.js';
+
+import {
+    NavLink,
+  } from "react-router-dom";
 
 class Home extends Component {
     render() {
         return (
-            <div class="container" style={{ width: 1200 }}>
+            <div className="container" >
 
                 {/* title image div */}
 
-                <div class="container" style={{
-                    width: 1180, height: 500, backgroundImage: `url(${sydney2})`, backgroundPosition: 'center', backgroundSize: 'cover',
-                    backgroundRepeat: 'no-repeat', boxShadow: '0 0 10px 0 rgba(0, 0, 0, 0.19)', borderRadius: '0 0 5px 5px'
+                <div className="container" style={{backgroundImage: `url(${sydney2})`, backgroundPosition: 'center', backgroundSize: '1200px',
+                    backgroundRepeat: 'no-repeat',  borderRadius: '0 0 5px 5px'
                 }}>
                     <br /><br /><br />
-                    <div class="container" style={{ width: 950, position: 'relative', alignItems: 'center', textAlign: 'center' }}>
-                        <div class="container" style={{ width: '65%', padding: 10, backgroundColor: 'white', boxShadow: '0 0 10px 0 rgba(0, 0, 0, 0.19)', borderRadius: 5 }}>
+                    <div className="container" style={{ position: 'relative'}}>
+                        <div className="container" style={{ width: '65%', padding: 10, backgroundColor: 'white', boxShadow: '0 0 10px 0 rgba(0, 0, 0, 0.19)', borderRadius: 5 }}>
 
-                            <h1 class="navbar-title" style={{ color: '#be353d' }}><img src={titlelogo} width="135" height="135" alt="" style={{ float: 'left', borderRadius: 5 }} /><br />Leo Removals</h1>
-                            <h3 class="avenir-reg">Removalist Service in Sydney&nbsp;&nbsp;&nbsp;</h3>
+                            <h1 className="navbar-title" style={{ color: '#be353d' }}><img src={titlelogo} width="20%" height="20%" alt="" style={{ float: 'left', borderRadius: 5 , }} /><br />Leo Removals</h1>
+                            <h3 className="avenir-reg">Removalist Service in Sydney&nbsp;&nbsp;&nbsp;<br /><br /></h3>
                         </div>
-
+                        <br /><br /><br /><br /><br />
                     </div>
                 </div>
 
                 {/* card container services */}
 
-                <div class='container avenir-reg' style={{ width: 1200 }}>
-                    <div class="container">
+                <div className='container avenir-reg' >
+                    <div className="container">
                         <br /><br />
                         <h1>Services</h1>
-                        <hr class="center" />
+                        <hr className="center" />
                     </div>
-                    <div class="row align-items-start avenir-bold" style={{ paddingTop: 10, paddingLeft: 0, paddingRight: 0 }}>
+                    <div className="row align-items-start avenir-bold" style={{ paddingTop: 10, paddingLeft: 0, paddingRight: 0 }}>
 
-                        <div class="col-md">
-                            <div class="card " style={Constants.cardStyle}>
-                                <FontAwesomeIcon icon={faGavel} class="card-img-top" style={Constants.cardIconStyle} />
-                                <div class="card-body" style={Constants.cardBodyStyle}>
-                                    <h5 class="card-title">Auction Pick Up and Deliveries</h5>
-                                    <p class="card-text avenir-reg">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href='auction' class="btn btn-primary" style={Constants.cardButtomStyle} >Find out more</a>
+                        <div className="col-md">
+                            <div className="card " style={Constants.cardStyle}>
+                                <FontAwesomeIcon icon={faGavel} className="card-img-top" style={Constants.cardIconStyle} />
+                                <div className="card-body" style={Constants.cardBodyStyle}>
+                                    <h5 className="card-title">Auction Pick Up and Deliveries</h5>
+                                    <p className="card-text avenir-reg">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <NavLink activeClassName="active" className="btn btn-primary" to={'/about'}>Find out more</NavLink>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md">
-                            <div class="card" style={Constants.cardStyle}>
-                                <FontAwesomeIcon icon={faTruck} class="card-img-top" style={Constants.cardIconStyle} />
-                                <div class="card-body" style={Constants.cardBodyStyle}>
-                                    <h5 class="card-title">Local and Interstate Removals</h5>
-                                    <p class="card-text avenir-reg">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="removals" class="btn btn-primary" style={Constants.cardButtomStyle} >Find out more</a>
+                        <div className="col-md">
+                            <div className="card" style={Constants.cardStyle}>
+                                <FontAwesomeIcon icon={faTruck} className="card-img-top" style={Constants.cardIconStyle} />
+                                <div className="card-body" style={Constants.cardBodyStyle}>
+                                    <h5 className="card-title">Local and Interstate Removals</h5>
+                                    <p className="card-text avenir-reg">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="removals" className="btn btn-primary" style={Constants.cardButtomStyle} >Find out more</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md">
+                        <div className="col-md">
 
-                            <div class="card" style={Constants.cardStyle}>
-                                <FontAwesomeIcon icon={faBuilding} class="card-img-top" style={Constants.cardIconStyle} />
-                                <div class="card-body" style={Constants.cardBodyStyle}>
-                                    <h5 class="card-title">Office Removal</h5><br />
-                                    <p class="card-text avenir-reg">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="office" class="btn btn-primary" style={Constants.cardButtomStyle} >Find out more</a>
+                            <div className="card" style={Constants.cardStyle}>
+                                <FontAwesomeIcon icon={faBuilding} className="card-img-top" style={Constants.cardIconStyle} />
+                                <div className="card-body" style={Constants.cardBodyStyle}>
+                                    <h5 className="card-title">Office Removal</h5><br />
+                                    <p className="card-text avenir-reg">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="office" className="btn btn-primary" style={Constants.cardButtomStyle} >Find out more</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md">
+                        <div className="col-md">
 
-                            <div class="card" style={Constants.cardStyle}>
-                                <FontAwesomeIcon icon={faCouch} class="card-img-top" style={Constants.cardIconStyle} />
-                                <div class="card-body" style={Constants.cardBodyStyle}>
-                                    <h5 class="card-title">Clean Up and Disposal Furniture</h5>
-                                    <p class="card-text avenir-reg">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="disposal" class="btn btn-primary" style={Constants.cardButtomStyle} >Find out more</a>
+                            <div className="card" style={Constants.cardStyle}>
+                                <FontAwesomeIcon icon={faCouch} className="card-img-top" style={Constants.cardIconStyle} />
+                                <div className="card-body" style={Constants.cardBodyStyle}>
+                                    <h5 className="card-title">Clean Up and Disposal Furniture</h5>
+                                    <p className="card-text avenir-reg">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="disposal" className="btn btn-primary" style={Constants.cardButtomStyle} >Find out more</a>
                                 </div>
                             </div>
                         </div>
@@ -96,14 +100,17 @@ class Home extends Component {
 
                 {/* card cotainer company */}
 
-                <div class="container avenir-reg" >
+                <div className="container avenir-reg" >
                     <h1 >Company</h1>
-                    <hr class="center" />
+                    <hr className="center" />
                 </div>
                 <CardAbout />
-                <div class="container avenir-reg" >
-                    <hr class="center" />
+                <div className="container avenir-reg" >
+                    <hr className="center" />
                 </div>
+                <br/>
+                <br/>
+                <Form />
 
             </div>
         )

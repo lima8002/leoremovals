@@ -1,0 +1,24 @@
+.FixedStyle {
+    background-size: 1200px;
+}
+
+.GridStyle {
+    background-color: white;
+    display:flex;
+    justify-content:flex-end;
+}
+
+.DivLogoStyle {
+    background-image: url('../images/titlelogo.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 5;     
+
+}
+
+.DivTitleStyle {
+    background-image: url("../images/movingfurniture.jpg");
+    background-size: 100%;
+    border-radius: 5px 0 5px 5px;
+    background-repeat: no-repeat;
+}
