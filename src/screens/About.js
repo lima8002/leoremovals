@@ -16,9 +16,7 @@ class About extends Component {
     render() {
         return (
             <div className="container FixedStyle" >
-
-                <Cover className="FixedStyle" />
-
+                <Cover />
                 <div className="container avenir-reg" >
                     <br />
                     <h1>About Us</h1>

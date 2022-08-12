@@ -1,0 +1,43 @@
+.CardStyle {
+    background-size: 7.25rem;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 20px;
+    padding-left: 0;
+    border: 0;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.CardIconStyle {
+    max-width: 23%;
+    height: 60px;
+    padding: 20;
+    color: #be353d;
+}
+
+.CardBodyStyle {
+    background-color: white;
+    border-radius: 5;
+}
+
+.CardButtomStyle {
+    color: #be353d;
+    background-color: white;
+    border-color: #be353d;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.DivStyle {
+    background-size: 1200px;
+    margin-top: 50;
+    justify-content: center;
+    align-items: center;
+}
+
+.RowStyle {
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}

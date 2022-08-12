@@ -13,7 +13,7 @@ import {
     faTruck,
 } from '@fortawesome/free-solid-svg-icons';
 
-import titlelogo from './images/titlelogo.png';
+
 import CardAbout from './components/CardAbout';
 import Form from './components/Form';
 import * as Constants from './css/card.js';
@@ -21,6 +21,7 @@ import * as Constants from './css/card.js';
 import {
     NavLink,
   } from "react-router-dom";
+import CoverHome from './components/CoverHome';
 
 class Home extends Component {
     render() {
@@ -29,20 +30,8 @@ class Home extends Component {
 
                 {/* title image div */}
 
-                <div className="container" style={{backgroundImage: `url(${sydney2})`, backgroundPosition: 'center', backgroundSize: '1200px',
-                    backgroundRepeat: 'no-repeat',  borderRadius: '0 0 5px 5px'
-                }}>
-                    <br /><br /><br />
-                    <div className="container" style={{ position: 'relative'}}>
-                        <div className="container" style={{ width: '65%', padding: 10, backgroundColor: 'white', boxShadow: '0 0 10px 0 rgba(0, 0, 0, 0.19)', borderRadius: 5 }}>
-
-                            <h1 className="navbar-title" style={{ color: '#be353d' }}><img src={titlelogo} width="20%" height="20%" alt="" style={{ float: 'left', borderRadius: 5 , }} /><br />Leo Removals</h1>
-                            <h3 className="avenir-reg">Removalist Service in Sydney&nbsp;&nbsp;&nbsp;<br /><br /></h3>
-                        </div>
-                        <br /><br /><br /><br /><br />
-                    </div>
-                </div>
-
+                <CoverHome/ >
+                
                 {/* card container services */}
 
                 <div className='container avenir-reg' >

@@ -1,11 +1,7 @@
 .FixedStyle {
     background-size: 1200px;
-}
-
-.GridStyle {
-    background-color: white;
-    display:flex;
-    justify-content:flex-end;
+    padding-left: 1.3%;
+    padding-right: 1.3%;
 }
 
 .DivLogoStyle {
@@ -22,5 +18,17 @@
     background-position: center;
     border-radius: 5px 0 5px 5px;
     background-repeat: no-repeat;
-    padding-left: 30;
+    padding-left: 30px;
+}
+
+.TitleStyle {
+    padding-top: 180px; 
+    padding-right: 280px; 
+    text-align: start; 
+    margin-left: 40px; 
+    padding-bottom: 10px;
+}
+
+.ColorTitleStyle {
+    color: #be353d;
 }

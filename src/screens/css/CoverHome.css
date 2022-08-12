@@ -1,0 +1,49 @@
+.CoverHomeStyle {
+    background-image: url('../../screens/images/sydney-21.jpg');
+    background-position: center;
+    background-size: 91.5%;
+    background-repeat: no-repeat;
+    border-radius: 0 0 2% 2%;
+
+}
+
+.DivContStyle {
+
+background-size: 50%;
+    padding-top: 8%;
+    padding-bottom: 14%;
+    background-position-x: 45%
+   
+   
+}
+
+.DivLogoStyle {
+
+    max-width: 50%;
+    background-size: 25.5%;
+    background-position-x: 5%;
+    background-position-y: 45%;
+
+    background-color: white;
+    border-radius: 2%;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.19);
+   
+    padding-left: 15%;
+    padding-bottom: 1%;
+
+    
+}
+
+.LogoStyle {
+    background-image: url('../images/titlelogo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+
+    background-size: 20%;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.LogoColor{
+    color: #be353d;
+}
