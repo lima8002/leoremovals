@@ -14,7 +14,7 @@ export default class Cover extends Component {
                         </div> */}
                         <div className="col w-60">
                             <div className="container DivTitleStyle">
-                                <p style={{ paddingTop: 180, paddingRight: 280 }}>
+                                <p style={{ paddingTop: 180, paddingRight: 280, textAlign:'start' }}>
                                     <h1 className="navbar-title" style={{ color: '#be353d' }}><br />Leo Removals</h1>
                                     <h3 className="avenir-reg">Removalist Service in Sydney</h3>
                                 </p>
