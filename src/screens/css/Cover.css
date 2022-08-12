@@ -18,7 +18,9 @@
 
 .DivTitleStyle {
     background-image: url("../images/movingfurniture.jpg");
-    background-size: 100%;
+    background-size: 95%;
+    background-position: center;
     border-radius: 5px 0 5px 5px;
     background-repeat: no-repeat;
+    padding-left: 30;
 }
