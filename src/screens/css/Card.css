@@ -19,7 +19,6 @@
 
 .CardBodyStyle {
     background-color: white;
-    border-radius: 5;
 }
 
 .CardButtomStyle {
@@ -27,6 +26,8 @@
     background-color: white;
     border-color: #be353d;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.19);
+    width: 150px;
+    margin-bottom: 50px;
 }
 
 .DivStyle {

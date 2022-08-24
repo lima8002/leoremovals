@@ -1,0 +1,40 @@
+.NavBarTopStyle {
+    background-color: #be353d;
+    height:73px;
+}
+
+.NavBarContainerStyle {
+    max-width: 1200px;
+}
+
+.NavBarTitleStyle {
+    font-size: 20;
+}
+
+.TogglerStyle {
+    background-color: #be353d;
+    max-height: 70px;
+    border-radius: 5px;
+}
+
+@media (max-width: 999.98px) {
+    .TogglerStyle {
+        background-color: #be353d;
+        max-height: 200px;
+    }
+    
+}
+
+@media (max-width: 1400.98px) {
+    .NavBarContainerStyle {
+        max-width: 1080px;
+    }
+    
+}
+
+@media (max-width: 1100.98px) {
+    .NavBarContainerStyle {
+        max-width: 980px;
+    }
+    
+}
