@@ -1,25 +1,23 @@
 {
   "files": {
-    "main.css": "/leoremovals/static/css/main.5f97ce84.css",
-    "main.js": "/leoremovals/static/js/main.4844ec84.js",
+    "main.css": "/leoremovals/static/css/main.746d7830.css",
+    "main.js": "/leoremovals/static/js/main.1651b976.js",
     "static/js/787.555a46ad.chunk.js": "/leoremovals/static/js/787.555a46ad.chunk.js",
     "static/media/sydney-1.jpg": "/leoremovals/static/media/sydney-1.446c7cf5a5edbd19fe4a.jpg",
     "static/media/movingfurniture.jpg": "/leoremovals/static/media/movingfurniture.79257d059d6a9b504a3d.jpg",
-    "static/media/sydney-3.jpg": "/leoremovals/static/media/sydney-3.220de184e46cf24695a4.jpg",
     "static/media/sydney-21.jpg": "/leoremovals/static/media/sydney-21.76e9a60d6be1829e4773.jpg",
-    "static/media/leoremovalstransp2.png": "/leoremovals/static/media/leoremovalstransp2.522875af10d385804912.png",
     "static/media/OpenSans-Regular.ttf": "/leoremovals/static/media/OpenSans-Regular.57cd57a648021fa1c396.ttf",
     "static/media/AvenirNextLTPro-Bold.otf": "/leoremovals/static/media/AvenirNextLTPro-Bold.711a4eb654bf1139f123.otf",
     "static/media/AvenirNextLTPro-Regular.otf": "/leoremovals/static/media/AvenirNextLTPro-Regular.94f2f163d4b698242fef.otf",
     "static/media/titlelogo.png": "/leoremovals/static/media/titlelogo.0ddbcbacd4adef20a25f.png",
     "static/media/nulshock-bd.otf": "/leoremovals/static/media/nulshock-bd.5f8b79a5cb66b510d8eb.otf",
     "index.html": "/leoremovals/index.html",
-    "main.5f97ce84.css.map": "/leoremovals/static/css/main.5f97ce84.css.map",
-    "main.4844ec84.js.map": "/leoremovals/static/js/main.4844ec84.js.map",
+    "main.746d7830.css.map": "/leoremovals/static/css/main.746d7830.css.map",
+    "main.1651b976.js.map": "/leoremovals/static/js/main.1651b976.js.map",
     "787.555a46ad.chunk.js.map": "/leoremovals/static/js/787.555a46ad.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5f97ce84.css",
-    "static/js/main.4844ec84.js"
+    "static/css/main.746d7830.css",
+    "static/js/main.1651b976.js"
   ]
 }
