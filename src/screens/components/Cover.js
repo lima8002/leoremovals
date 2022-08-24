@@ -5,6 +5,7 @@ class Cover extends Component {
     render() {
         return (
             <div className="container FixedStyle ">
+
                 <div className="container DivTitleStyle  ">
                     <p className="TitleStyle">
                         <h1 className="navbar-title ColorTitleStyle" ><br />Leo Removals</h1>

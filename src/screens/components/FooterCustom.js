@@ -1,17 +1,24 @@
 import React from "react";
+import '../css/Footer.css';
+import logo from '../images/titlelogo.jpg';
+import { NavLink } from "react-router-dom";
 
 function Footer() {
     return (
         <footer className="bg-dark" style={{ width: '100%' }} >
-            <div style={footerMiddle} >
+            <div className="FooterMiddle" >
                 <div className="container" >
-                    <h4>(icon) Leo Removals</h4>
-                    <p>Home  |</p>
-                    <p>About Us  |</p>
-                    <p>Contact</p>
-                    <div className="container" style={footerBottom}>
+                    <h4 className="navbar-title"><img className="ImageStyle" src={logo} alt="" /> Leo Removals</h4>
+                    <div className="">
+                        
+                    <NavLink exact activeClassName="active" className="nav-link lead-font-size" to={'/'}>Home</NavLink>
+                    <NavLink activeClassName="active" className="nav-link lead-font-size" to={'/about'}>About Us</NavLink>
+                    <NavLink activeClassName="active" className="nav-link lead-font-size" to={'/contact'}>Contact </NavLink>
+
+                    </div>
+                    <div className="container FooterBottom">
                         <p className="text-xs-center">
-                            &copy;{new Date().getFullYear()} eduxrn
+                            &copy;{new Date().getFullYear()} Eduardo Lima
                         </p>
                     </div>
                 </div>
@@ -23,16 +30,5 @@ function Footer() {
 
 export default Footer;
 
-const footerMiddle = {
-    background: 'black',
-    paddingTop: '2em',
-    color: '#fff',
-    textAlign: 'center',
-};
-
-const footerBottom = {
-    paddingTop: '2rem',
-    paddingBottom: '2rem',
-};
 
 

@@ -1,0 +1,16 @@
+.FooterMiddle  {
+    background: black;
+    padding-top: 2em;
+    color: white;
+    text-align: center;
+}
+
+.FooterBottom {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.ImageStyle {
+    width: 20px;
+    height: 20px;
+}

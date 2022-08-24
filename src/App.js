@@ -13,11 +13,13 @@ import {
 import About from './screens/About';
 import Contact from './screens/Contact';
 import Home from './screens/Home';
+import ScrollTop from "./screens/components/ScrollTop";
 
 class App extends React.Component {
   render() {
     return (
       <Router>
+        <ScrollTop />
         <div className="App">
           <NavBar />
           <Routes>

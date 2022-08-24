@@ -25,7 +25,7 @@ class CardServices extends Component {
                                 <p className="card-text avenir-reg">
                                     We offer pick up and delivery for your auction items, either collecting or putting to sell.
                                 </p>
-                                
+
                             </div>
                         </div>
                     </div>
@@ -37,7 +37,7 @@ class CardServices extends Component {
                                 <p className="card-text avenir-reg">
                                     Quality service for your removal. Done quickly and safely. No time wasted and no damaged items.
                                 </p>
-                                
+
                             </div>
                         </div>
                     </div>
@@ -63,10 +63,12 @@ class CardServices extends Component {
                             </div>
                         </div>
                     </div>
-                    
-                   
+
+
                 </div>
-                <NavLink activeClassName="active" className="btn btn-outline-danger CardButtomStyle" to={'/about'}>Find out more</NavLink>
+                <div className="container avenir-bold">
+                    <NavLink activeClassName="active" className="btn btn-outline-danger CardButtomStyle" to={'/about'}>Find out more</NavLink>
+                </div>
             </div>
         )
     }

@@ -14,7 +14,9 @@ class CardAbout extends Component {
                             <FontAwesomeIcon icon={faFileCircleCheck} className="card-img-top CardIconStyle" />
                             <div className="card-body CardBodyStyle"><br />
                                 <h5 className="card-title avenir-bold">Fully Insured and Experienced</h5>
-                                <p className="card-text avenir-reg">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <p className="card-text avenir-reg">
+                                    Our business is fully insured and our removalists are experienced.
+                                </p>
                                 <br />
                             </div>
                         </div>
@@ -24,7 +26,9 @@ class CardAbout extends Component {
                             <FontAwesomeIcon icon={faPeopleCarryBox} className="card-img-top CardIconStyle" />
                             <div className="card-body CardBodyStyle"><br />
                                 <h5 className="card-title avenir-bold">Reliable and Friendy Service</h5>
-                                <p className="card-text avenir-reg">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <p className="card-text avenir-reg">
+                                    Quick service with all the care you can expect from our professionals.
+                                </p>
                                 <br />
                             </div>
                         </div>
@@ -34,7 +38,9 @@ class CardAbout extends Component {
                             <FontAwesomeIcon icon={faLocationPin} className="card-img-top CardIconStyle" />
                             <div className="card-body CardBodyStyle"><br />
                                 <h5 className="card-title avenir-bold">All Areas</h5><br />
-                                <p className="card-text avenir-reg">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <p className="card-text avenir-reg">
+                                    We work on all areas in Sydney including regional NSW.
+                                </p>
                                 <br />
                             </div>
                         </div>
@@ -43,15 +49,14 @@ class CardAbout extends Component {
                         <div className="card CardStyle border-white">
                             <FontAwesomeIcon icon={faCalendarWeek} className="card-img-top CardIconStyle" />
                             <div className="card-bod CardBodyStyle"><br />
-                                <h5 className="card-title avenir-bold">7 Days</h5><br />
-                                <p className="card-text avenir-reg">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <h5 className="card-title avenir-bold" style={{paddingTop:14}}>7 Days</h5><br />
+                                <p className="card-text avenir-reg">
+                                    Available to do your job all days of the week.
+                                </p>
                                 <br />
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className="container avenir-bold">
-                    <a href="/about" className="btn btn-primary CardButtomStyle" >Find out more</a>
                 </div>
             </div>
 
